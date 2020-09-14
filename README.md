@@ -3,11 +3,15 @@ Resources on Programming
 
 List of topics:
 
+- [Programming](./programming.md)
 - [Haskell](./haskell.md)
 - [Nix](./nix.md)
 - [Rust](./rust.md)
+- [ML](./ml.md)
+- [Racket](./racket.md)
 - [Functional Compilers](./functional_compilers.md)
 - [Type Theory](./type_theory.md)
+- [Papers](./papers.md)
 
 ### Dead Link ?
 

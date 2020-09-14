@@ -22,6 +22,7 @@ Resources on Haskell
 - [oneShot](https://hackage.haskell.org/package/base-4.14.0.0/docs/GHC-Exts.html#v:oneShot) - The oneShot function can be used to give a hint to the compiler that its argument will be called at most once, which may (or may not) enable certain optimizations. It can be useful to improve the performance of code in continuation passing style.
 - [How haskell threads block](http://www.wjwh.eu/posts/2020-07-10-haskell-thread-blocked.html)
 - [Template Haskell: staging](http://web.cecs.pdx.edu/~sheard/course/AdvancedFP/notes/StagingInHaskell.pdf)
+- [Functionally oblivious (and succinct)](https://www.cs.ox.ac.uk/ralf.hinze/WG2.8/33/slides/Edward.pdf)
 
 ### Clever Haskell
 
@@ -30,7 +31,8 @@ Resources on Haskell
 - [Replacing function arguments with MonadReader calls](https://gist.github.com/i-am-tom/23d36a0598936572407794883548c900)
 - [Typerep-map step by step](https://kowainik.github.io/posts/2018-07-11-typerep-map-step-by-step)
 - [Higher-Kinded Data](https://reasonablypolymorphic.com/blog/higher-kinded-data/)
-- [A Type-Safe Approach to Categorized Data](https://epeery.com/typesafe-approach-to-categorized-data/) - Modeling a survey
+- [Deriving Bifunctor with Generics](https://kcsongor.github.io/generic-deriving-bifunctor/#incoherent-instances)
+- [Session Types: workshop](https://github.com/coot/monadic-party2019)
 
 ### Laziness & Space Leaks
 
@@ -70,6 +72,7 @@ Resources on Haskell
 
 ### GHC & System/Low-level Programming
 
+- [The GHC: a contributor's cheatsheet](https://ghc.dev/)
 - [About GHC & System Programming in Haskell](./haskell/low_level.md)
 - [A short exploration of GHC’s instance resolution hiding mistakes from the type checker](https://dorchard.blog/2020/06/03/a-short-exploration-of-ghcs-instance-resolution-hiding-mistakes-from-the-type-checker/) - Instance resolution prevented a typechecking error explained
 - [Better instance resolution error](https://mgsloan.com/posts/inspecting-haskell-instance-resolution/) - About adding a new flag to GHC to "explain" instances resolution
@@ -95,6 +98,11 @@ Resources on Haskell
 
 - More about nix [here](./nix.md)
 
+### Exercises
+
+- [Advent of Code](https://adventofcode.com/)
+- [Kattis](https://open.kattis.com/)
+
 ### Blogs
 
 - [Csongor Kiss](https://kcsongor.github.io/)
@@ -113,3 +121,12 @@ Resources on Haskell
 - [Algebra-Driven Design - Sandy Maguire](https://algebradriven.design/)
 - Thinking With Types - Sandy Maguire
 - Algorithm Design With Haskell - Bird and Gibbons
+- [Functional Design and Architecture - Alexander Granin](https://graninas.com/functional-design-and-architecture-book/)
+
+### Conferences
+
+- [Monadic Party](https://monadic.party/)
+- Zurihack
+- Lambda Days
+- [Haskell Love Conference](https://haskell.love/)
+- [ICFP](https://icfp20.sigplan.org/)
