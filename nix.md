@@ -43,6 +43,8 @@ Utilities:
 - [niv](https://github.com/nmattia/niv) - Painless dependencies for Nix projects
 - [styx](https://github.com/jyp/styx) - a nix-based multi-repo Haskell project manager
 
+- [cabal2nix](https://github.com/NixOS/cabal2nix)
+
 ### Services
 
 - [cachix](https://cachix.org/) - Remote shared cache as a service.
@@ -54,33 +56,49 @@ Utilities:
 - [Typed Nix programming using Dhall](http://www.haskellforall.com/2017/01/typed-nix-programming-using-dhall.html) - Typing nix
 - [dhall-nix](https://hackage.haskell.org/package/dhall-nix) - dhall to nix compiler
 
+- [Nix: under the hood](https://github.com/Gabriel439/slides/blob/master/nix-internals/slides.md)
+- [How to write a Nix derivation](https://github.com/Gabriel439/slides/blob/master/nix-derivation/slides.md)
+
 ### Nixpkgs
 
+- [nix.dev](https://nix.dev/)
+- [Nixpkgs Channel Status](https://status.nixos.org/)
+
 - [fetchTarball vs fetchGit vs fetchFromGithub](https://discourse.nixos.org/t/difference-between-fetchtarball-fetchfromgithub-fetchgit/3279)
-- [Import From Derivation](https://nixos.wiki/wiki/Import_From_Derivation)
+- [Import from derivation](https://nixos.wiki/wiki/Import_From_Derivation)
 - [Overlays and Overriding a package inside a scope](https://nixos.wiki/wiki/Overlays) - Overriding a package inside a scope, Python Packages Overlay
 - [NixOS: The DOs and DON’Ts of nixpkgs overlays](https://blog.flyingcircus.io/2017/11/07/nixos-the-dos-and-donts-of-nixpkgs-overlays/)
 - [packageSourceOverrides](https://github.com/NixOS/nixpkgs/blob/7d30b4d1b57fc6fb11b0b34aea9fd313d40447d4/pkgs/development/haskell-modules/lib.nix#L47) - Automatically call `callCabal2nix` or `callHackage`. [Here is an example](https://github.com/Gabriel439/Haskell-Turtle-Library/blob/master/default.nix#L18)
 - [Contributing to Nixpkgs](https://rawkode.com/articles/contributing-nixpkgs/) - Adding an extension to gnome-3 (good read)
 - [Updating your Nix Sources](https://garbas.si/2016/updating-your-nix-sources.html) - The repo is very interesting, I can't say the same about the blog.
-- [Getting ghcide into nixpkgs](https://mpickering.github.io//ide/posts/2020-06-05-ghcide-and-nixpkgs.html) - Full of details (recommended)
+- [Getting ghcide into nixpkgs](https://mpickering.github.io//ide/posts/2020-06-05-ghcide-and-nixpkgs.html) - Full of details (recommended), [ghcide setup with nix](https://gist.github.com/chris-martin/5080d513dd206e0ea43aded795788743) - outdated
 - [haskellPackages.stm-containers fails to build](https://discourse.nixos.org/t/haskellpackages-stm-containers-fails-to-build/5416/4) - How to solve the issue with a lot of details. `haskell2nix` explained.
+- [Nix and Haskell in production](https://github.com/Gabriel439/haskell-nix) - How to develop and build your haskell applications using Nix (recommended)
+- [Nix Haskell Monorepo Tutorial](https://github.com/fghibellini/nix-haskell-monorepo) - Recommended after "Nix and Haskell in production"
 
 ### NixOS
+
+- [Configuration Collection](https://nixos.wiki/wiki/Configuration_Collection)
+- [Search NixOS packages/options](https://search.nixos.org/packages)
+- [Home Manager using Nix](https://github.com/nix-community/home-manager)
 
 - [How to add <nixos-unstable> channel declaratively in configuration.nix](https://stackoverflow.com/questions/48831392/how-to-add-nixos-unstable-channel-declaratively-in-configuration-nix)
 - [How to add <nixos-unstable> channel declaratively in configuration.nix: 2nd part](https://stackoverflow.com/questions/48838411/install-virtualbox-modules-from-nixos-unstable-in-configuration-nix/48842655#48842655)
 - [Overriding some packages](https://stackoverflow.com/questions/36000514/how-to-override-2-two-packages-in-nixos-configuration-nix), [Overriding a haskell package](https://unix.stackexchange.com/questions/497798/how-can-i-override-a-broken-haskell-package-in-nix)
 - (outdated)[Install NixOS on Amazon EC2](https://nixos.wiki/wiki/Install_NixOS_on_Amazon_EC2)
 - [nixos-infect](https://github.com/elitak/nixos-infect) - install NixOS on Digital Ocean droplets, Vultr servers, or OVH Virtual Private Servers
+- [Different methods to run a non-nixos executable on Nixos](https://unix.stackexchange.com/questions/522822/different-methods-to-run-a-non-nixos-executable-on-nixos) - Like
+- [Packaging/Binaries](https://nixos.wiki/wiki/Packaging/Binaries)
 
-NixOS in production
+NixOS in production:
 
 - [NixOS in production](http://www.haskellforall.com/2018/08/nixos-in-production.html) - short post summarizing what I wish I had known when I first started using NixOS in production
 - [Deploy software easily and securely using nix-deploy](https://awakesecurity.com/blog/deploy-software-easily-securely-using-nix-deploy/)
 
 ### Projects using Nix
 
+- [nix badge](https://builtwithnix.org/)
+- [simple-twitter](https://github.com/Gabriel439/simple-twitter)
 - [release-services](https://github.com/mozilla/release-services/tree/master/nix) - mozilla project with HEAVY use of nix.
 
 ### Youtube

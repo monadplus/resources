@@ -1,10 +1,11 @@
 Resources on Programming
-=====================================
+========================
 
 List of topics:
 
 - [Haskell](./haskell.md)
 - [Nix](./nix.md)
+- [Rust](./rust.md)
 - [Functional Compilers](./functional_compilers.md)
 - [Type Theory](./type_theory.md)
 

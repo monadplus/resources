@@ -88,6 +88,13 @@ Resources on Haskell
 - [Dead simple cross-platform GitHub Actions for Haskell](https://kodimensional.dev/github-actions)
 - [GitHub actions for Haskell CI](https://markkarpov.com/post/github-actions-for-haskell-ci.html)
 
+### Nix
+
+- [Nix and Haskell in production](https://github.com/Gabriel439/haskell-nix) - How to develop and build your haskell applications using Nix (recommended)
+- [Nix Haskell Monorepo Tutorial](https://github.com/fghibellini/nix-haskell-monorepo)
+
+- More about nix [here](./nix.md)
+
 ### Blogs
 
 - [Csongor Kiss](https://kcsongor.github.io/)
