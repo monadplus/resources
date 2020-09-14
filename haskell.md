@@ -37,7 +37,6 @@ Resources on Haskell
 ### Laziness & Space Leaks
 
 - [Laziness Quiz](https://www.parsonsmatt.org/2018/12/04/laziness_quiz.html)
-- [Avoiding spaceleaks when deleting data](Avoiding space leaks when deleting data)
 - [Spaceleak detection](https://github.com/ndmitchell/spaceleak) - How to blog (recommended)
 - [Destroying Performance with Strictness](https://neilmitchell.blogspot.com/2013/08/destroying-performance-with-strictness.html)
 - [Time travel in Haskell for dummies](https://kcsongor.github.io/time-travel-in-haskell-for-dummies/) - laziness in action. Very cool post.

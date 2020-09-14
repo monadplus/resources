@@ -3,11 +3,13 @@ Resources on Programming
 
 List of topics:
 
-- [Programming](./programming.md)
+- [General](./general.md)
 - [Haskell](./haskell.md)
 - [Nix](./nix.md)
+    - [Experimenting with Nix](./nix-experiments.md)
 - [Rust](./rust.md)
 - [ML](./ml.md)
+- [Agda](./agda.md)
 - [Racket](./racket.md)
 - [Functional Compilers](./functional_compilers.md)
 - [Type Theory](./type_theory.md)
