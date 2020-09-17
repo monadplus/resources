@@ -23,6 +23,7 @@ Resources on Haskell
 - [How haskell threads block](http://www.wjwh.eu/posts/2020-07-10-haskell-thread-blocked.html)
 - [Template Haskell: staging](http://web.cecs.pdx.edu/~sheard/course/AdvancedFP/notes/StagingInHaskell.pdf)
 - [Functionally oblivious (and succinct)](https://www.cs.ox.ac.uk/ralf.hinze/WG2.8/33/slides/Edward.pdf)
+- [Cache-friendly binary search](http://bannalia.blogspot.com/2015/06/cache-friendly-binary-search.html)
 
 ### Clever Haskell
 
