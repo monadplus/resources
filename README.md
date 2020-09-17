@@ -15,6 +15,12 @@ List of topics:
 - [Type Theory](./type_theory.md)
 - [Papers](./papers.md)
 
+### Books
+
+Each topic has a dedicated book's section.
+
+There is also [books.md](./books.md) with books about several topics related to programming.
+
 ### Dead Link ?
 
 It would be really appreciated if people raise issues when a link is dead. So, we can fix the broken/outdated/dead link.

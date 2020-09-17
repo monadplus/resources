@@ -10,6 +10,10 @@ These courses follow [An Incremental Approach to Compiler Construction -  A. Ghu
 And another course covering the _intermediate_ stage of compiling functional languages:
 - [Compiling Functional Languages](http://www.cse.chalmers.se/edu/year/2011/course/CompFun/)
 
+### Books
+
+- Modern Compiler Implementation in ML - Andrew W. Appel
+
 ### Short Overviews
 
 - [Haskell and Compilers](https://github.com/soupi/rfc/blob/master/compilers-and-haskell.md)
