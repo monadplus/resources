@@ -34,6 +34,7 @@ Resources on Haskell
 - [Higher-Kinded Data](https://reasonablypolymorphic.com/blog/higher-kinded-data/)
 - [Deriving Bifunctor with Generics](https://kcsongor.github.io/generic-deriving-bifunctor/#incoherent-instances)
 - [Session Types: workshop](https://github.com/coot/monadic-party2019)
+- [Parsing type-level strings in Haskell](https://kcsongor.github.io/symbol-parsing-haskell/)
 
 ### Laziness & Space Leaks
 
