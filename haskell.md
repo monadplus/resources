@@ -24,9 +24,11 @@ Resources on Haskell
 - [Template Haskell: staging](http://web.cecs.pdx.edu/~sheard/course/AdvancedFP/notes/StagingInHaskell.pdf)
 - [Functionally oblivious (and succinct)](https://www.cs.ox.ac.uk/ralf.hinze/WG2.8/33/slides/Edward.pdf)
 - [Cache-friendly binary search](http://bannalia.blogspot.com/2015/06/cache-friendly-binary-search.html)
+- [Library: jsonifier](https://github.com/nikita-volkov/jsonifier) - x3 faster than Aeson by preallocating a buffer of the size of the resulting marshalling
 
 ### Clever Haskell
 
+- [Random Access Lists](https://doisinkidney.com/posts/2020-05-02-more-random-access-lists.html)
 - [type (~Ꭱ) = Coercible](https://www.reddit.com/r/haskelltil/comments/dh9z2a/type_coercible/)
 - [Opaque Constraint Synonyms](https://kcsongor.github.io/opaque-constraint-synonyms/)
 - [Replacing function arguments with MonadReader calls](https://gist.github.com/i-am-tom/23d36a0598936572407794883548c900)

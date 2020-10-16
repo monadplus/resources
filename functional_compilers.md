@@ -64,3 +64,7 @@ And another course covering the _intermediate_ stage of compiling functional lan
 - [The ZINC Experiment](http://caml.inria.fr/pub/papers/xleroy-zinc.pdf)
 - [Implementing lazy functional languages on stock hardware: The Spineless Tagless G-Machine](https://www.microsoft.com/en-us/research/wp-content/uploads/1992/04/spineless-tagless-gmachine.pdf)
 - [Compiler Design: Virtual Machine](http://www.springer.com/gp/book/9783642149085)
+
+### Refinement Types
+
+- [An tutorial-style implementation of liquid/refinement types for a subset of Ocaml/Reason](https://github.com/ranjitjhala/sprite-lang)
