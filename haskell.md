@@ -25,6 +25,7 @@ Resources on Haskell
 - [Functionally oblivious (and succinct)](https://www.cs.ox.ac.uk/ralf.hinze/WG2.8/33/slides/Edward.pdf)
 - [Cache-friendly binary search](http://bannalia.blogspot.com/2015/06/cache-friendly-binary-search.html)
 - [Library: jsonifier](https://github.com/nikita-volkov/jsonifier) - x3 faster than Aeson by preallocating a buffer of the size of the resulting marshalling
+- [Comparing manual vs. Generic vs. Template Haskell instances](https://dev.to/tfausak/how-to-define-json-instances-quickly-5ei7)
 
 ### Clever Haskell
 
