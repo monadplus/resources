@@ -94,6 +94,7 @@ Concurrency:
 #### JSON
 
 - [aeson](https://hackage.haskell.org/package/aeson), [aeson-qq](https://hackage.haskell.org/package/aeson-qq), [aeson-pretty](https://hackage.haskell.org/package/aeson-pretty)
+- [jsonifier](https://github.com/nikita-volkov/jsonifier) - x3 faster than Aeson by preallocating a buffer of the size of the resulting marshalling
 
 #### Version numbers
 

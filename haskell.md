@@ -23,9 +23,8 @@ Resources on Haskell
 - [How haskell threads block](http://www.wjwh.eu/posts/2020-07-10-haskell-thread-blocked.html)
 - [Template Haskell: staging](http://web.cecs.pdx.edu/~sheard/course/AdvancedFP/notes/StagingInHaskell.pdf)
 - [Functionally oblivious (and succinct)](https://www.cs.ox.ac.uk/ralf.hinze/WG2.8/33/slides/Edward.pdf)
-- [Cache-friendly binary search](http://bannalia.blogspot.com/2015/06/cache-friendly-binary-search.html)
-- [Library: jsonifier](https://github.com/nikita-volkov/jsonifier) - x3 faster than Aeson by preallocating a buffer of the size of the resulting marshalling
 - [Comparing manual vs. Generic vs. Template Haskell instances](https://dev.to/tfausak/how-to-define-json-instances-quickly-5ei7)
+- [Cache-friendly binary search](http://bannalia.blogspot.com/2015/06/cache-friendly-binary-search.html)
 
 ### Clever Haskell
 
@@ -38,6 +37,7 @@ Resources on Haskell
 - [Deriving Bifunctor with Generics](https://kcsongor.github.io/generic-deriving-bifunctor/#incoherent-instances)
 - [Session Types: workshop](https://github.com/coot/monadic-party2019)
 - [Parsing type-level strings in Haskell](https://kcsongor.github.io/symbol-parsing-haskell/)
+- [Introduction to Singletons](https://blog.jle.im/entries/series/+introduction-to-singletons.html)
 
 ### Laziness & Space Leaks
 
