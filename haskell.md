@@ -46,7 +46,9 @@ Resources on Haskell
 
 ### Denotational Design
 
-- https://github.com/bolt12/advent-of-haskell-dd
+- [Denotational design with type class morphisms](http://conal.net/papers/type-class-morphisms/type-class-morphisms-long.pdf) (original paper)
+
+- Blog: https://github.com/bolt12/advent-of-haskell-dd
 
 ### Laziness
 

@@ -204,6 +204,8 @@ Concurrency:
 - [QuickCheck](https://hackage.haskell.org/package/QuickCheck), [The Design and Use of QuickCheck](https://begriffs.com/posts/2017-01-14-design-use-quickcheck.html)
 - [hedgehod](https://hackage.haskell.org/package/hedgehog)
 
+- [QuickSpec](https://hackage.haskell.org/package/quickspec) - discover equational laws for free
+
 ## FFI
 
 - [hsc2hs](https://hackage.haskell.org/package/hsc2hs) - A preprocessor that helps with writing Haskell bindings to C code
