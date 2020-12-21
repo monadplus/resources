@@ -25,8 +25,9 @@ Resources on Haskell
 - [Functionally oblivious (and succinct)](https://www.cs.ox.ac.uk/ralf.hinze/WG2.8/33/slides/Edward.pdf)
 - [Comparing manual vs. Generic vs. Template Haskell instances](https://dev.to/tfausak/how-to-define-json-instances-quickly-5ei7)
 - [Cache-friendly binary search](http://bannalia.blogspot.com/2015/06/cache-friendly-binary-search.html)
+- [Functional Pearl: Trouble Shared is Trouble Halved](http://www.cs.ox.ac.uk/ralf.hinze/publications/HW03.pdf) - paper about sharing and "memo structures".
 
-### Clever Haskell
+### Type-level
 
 - [Random Access Lists](https://doisinkidney.com/posts/2020-05-02-more-random-access-lists.html)
 - [type (~Ꭱ) = Coercible](https://www.reddit.com/r/haskelltil/comments/dh9z2a/type_coercible/)
@@ -37,14 +38,27 @@ Resources on Haskell
 - [Deriving Bifunctor with Generics](https://kcsongor.github.io/generic-deriving-bifunctor/#incoherent-instances)
 - [Session Types: workshop](https://github.com/coot/monadic-party2019)
 - [Parsing type-level strings in Haskell](https://kcsongor.github.io/symbol-parsing-haskell/)
-- [Introduction to Singletons](https://blog.jle.im/entries/series/+introduction-to-singletons.html)
 
-### Laziness & Space Leaks
+### Dependent Types
+
+- [Introduction to Singletons](https://blog.jle.im/entries/series/+introduction-to-singletons.html)
+- [Dependently Typed Programming with Singletons](https://cs.brynmawr.edu/~rae/papers/2012/singletons/paper.pdf) - R. Eisenberg and S. Weirich
+
+### Denotational Design
+
+- https://github.com/bolt12/advent-of-haskell-dd
+
+### Laziness
 
 - [Laziness Quiz](https://www.parsonsmatt.org/2018/12/04/laziness_quiz.html)
-- [Spaceleak detection](https://github.com/ndmitchell/spaceleak) - How to blog (recommended)
 - [Destroying Performance with Strictness](https://neilmitchell.blogspot.com/2013/08/destroying-performance-with-strictness.html)
 - [Time travel in Haskell for dummies](https://kcsongor.github.io/time-travel-in-haskell-for-dummies/) - laziness in action. Very cool post.
+- [Maximal Laziness](https://edolstra.github.io/pubs/laziness-ldta2008-final.pdf)
+
+### Spaceleak
+
+- [Spaceleak detection](https://github.com/ndmitchell/spaceleak) - How to blog (recommended)
+- [Understanding Memory Fragmentation](https://www.well-typed.com/blog/2020/08/memory-fragmentation/) - GC, pinned and unpinned objects, etc.
 
 ### Databases
 
@@ -58,6 +72,10 @@ Resources on Haskell
 ### Build Tools
 
 - [Most popular build tools](./haskell/build_tools.md)
+
+### Web
+
+- [Building a Bulleting Board Using Scotty and Frieds](https://gilmi.me/blog/post/2020/12/05/scotty-bulletin-board)
 
 ### Package Versioning Policy (PVP)
 
@@ -78,13 +96,30 @@ Resources on Haskell
 
 - [The GHC: a contributor's cheatsheet](https://ghc.dev/)
 - [About GHC & System Programming in Haskell](./haskell/low_level.md)
-- [A short exploration of GHC’s instance resolution hiding mistakes from the type checker](https://dorchard.blog/2020/06/03/a-short-exploration-of-ghcs-instance-resolution-hiding-mistakes-from-the-type-checker/) - Instance resolution prevented a typechecking error explained
-- [Better instance resolution error](https://mgsloan.com/posts/inspecting-haskell-instance-resolution/) - About adding a new flag to GHC to "explain" instances resolution
+- [GHC proposals](https://github.com/ghc-proposals/ghc-proposals)
 - [GHC version - base version](https://wiki.haskell.org/Base_package)
+- [The many arrays of GHC](http://smart-cactus.org/~ben/posts/2016-03-30-what-is-this-array.html)
+
+- [Better instance resolution error](https://mgsloan.com/posts/inspecting-haskell-instance-resolution/) - About adding a new flag to GHC to "explain" instances resolution
+- [A short exploration of GHC’s instance resolution hiding mistakes from the type checker](https://dorchard.blog/2020/06/03/a-short-exploration-of-ghcs-instance-resolution-hiding-mistakes-from-the-type-checker/) - Instance resolution prevented a typechecking error explained
+
+### Comonads
+
+- [Declarative UIs are the Future - And the Future is Comonadic!](https://functorial.com/the-future-is-comonadic/main.pdf)
+- [Bounded Space Automata](https://blog.cofree.coffee/2020-10-17-bounded-space-automata/)
+- [Flipping arrows in coBurger King](http://blog.ezyang.com/2010/07/flipping-arrows-in-coburger-king/)
+
+### Error & Error Handling
+
+### Performance
+
+- [Measuring the Haskell Gap](http://www.leafpetersen.com/leaf/publications/ifl2013/haskell-gap.pdf)
 
 ### Effect Systems
 
 - [Most popular effect systems](./haskell/effect-systems.md)
+
+- [Plucking Constraints](https://www.parsonsmatt.org/2020/01/03/plucking_constraints.html)
 
 ### Editors/IDEs
 
@@ -104,6 +139,7 @@ Resources on Haskell
 
 ### Exercises
 
+- [Advent of haskell](https://adventofhaskell.com/)
 - [Advent of Code](https://adventofcode.com/)
 - [Kattis](https://open.kattis.com/)
 
@@ -117,6 +153,7 @@ Resources on Haskell
 - [Kowainik](https://kowainik.github.io/)
 - [Joachim Breitner](https://www.joachim-breitner.de/blog)
 - [Colin Woodbury (Fosskers)](https://www.fosskers.ca/en/blog)
+- [Justin Le](https://blog.jle.im/entries.html)
 
 ### Books
 
@@ -126,6 +163,11 @@ Resources on Haskell
 - Thinking With Types - Sandy Maguire
 - Algorithm Design With Haskell - Bird and Gibbons
 - [Functional Design and Architecture - Alexander Granin](https://graninas.com/functional-design-and-architecture-book/)
+
+### Videos
+
+- [Write a GHC extension in 30 minutes by Richard Eisenberg](https://www.youtube.com/watch?v=bhhE2DxbrJM)
+
 
 ### Conferences
 
