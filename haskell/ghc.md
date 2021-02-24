@@ -8,6 +8,12 @@ Resources on low-level Haskell
 - [Purpose of memory alignment](https://stackoverflow.com/questions/381244/purpose-of-memory-alignment)
 - [Delimited continuation primops](https://github.com/ghc-proposals/ghc-proposals/pull/313)
 
+### Core
+
+- http://smart-cactus.org/~ben/posts/2015-01-19-understanding-ghc-core.html
+- https://gitlab.haskell.org/ghc/ghc/-/wikis/commentary/compiler/core-syn-type
+- https://gitlab.haskell.org/ghc/ghc/blob/master/compiler/GHC/Core.hs#L326
+
 ### Libraries
 
 - [GHC.Exts](https://hackage.haskell.org/package/base-4.12.0.0/docs/GHC-Exts.html)
