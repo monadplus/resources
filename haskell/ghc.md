@@ -8,6 +8,13 @@ Resources on low-level Haskell
 - [Purpose of memory alignment](https://stackoverflow.com/questions/381244/purpose-of-memory-alignment)
 - [Delimited continuation primops](https://github.com/ghc-proposals/ghc-proposals/pull/313)
 
+### Where to start
+
+- https://www.aosabook.org/en/ghc.html
+- https://www.haskell.org/onlinereport/haskell2010/haskellpa1.html#haskellch2.html
+- https://www.stephendiehl.com/posts/ghc_01.html
+- https://gitlab.haskell.org/ghc/ghc/-/wikis/reading-list
+
 ### Core
 
 - http://smart-cactus.org/~ben/posts/2015-01-19-understanding-ghc-core.html
