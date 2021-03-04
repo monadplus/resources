@@ -7,6 +7,7 @@ Resources on low-level Haskell
 - [Calling Haskell from C](https://wiki.haskell.org/Calling_Haskell_from_C)
 - [Purpose of memory alignment](https://stackoverflow.com/questions/381244/purpose-of-memory-alignment)
 - [Delimited continuation primops](https://github.com/ghc-proposals/ghc-proposals/pull/313)
+- [Inlining and Specialisation](https://wiki.haskell.org/Inlining_and_Specialisation)
 
 ### Where to start
 
@@ -14,8 +15,11 @@ Resources on low-level Haskell
 - https://www.haskell.org/onlinereport/haskell2010/haskellpa1.html#haskellch2.html
 - https://www.stephendiehl.com/posts/ghc_01.html
 - https://gitlab.haskell.org/ghc/ghc/-/wikis/reading-list
+- A
 
 ### Core
+
+- [A transformation-based optimiser for Haskell](https://www.microsoft.com/en-us/research/wp-content/uploads/1998/09/comp-by-trans-scp.pdf)
 
 - http://smart-cactus.org/~ben/posts/2015-01-19-understanding-ghc-core.html
 - https://gitlab.haskell.org/ghc/ghc/-/wikis/commentary/compiler/core-syn-type
@@ -28,3 +32,4 @@ Resources on low-level Haskell
 - [primitive](https://hackage.haskell.org/package/primitive-0.7.0.1) - primitive memory-related operations
 - [array](https://hackage.haskell.org/package/array)
 - [vector](https://hackage.haskell.org/package/vector)
+- [ghc-core](http://hackage.haskell.org/package/ghc-core) - Display GHC's core and assembly output in a pager

@@ -17,3 +17,4 @@ Resources on Papers
 - [Effect Handlers in Scope](http://www.cs.ox.ac.uk/people/nicolas.wu/papers/Scope.pdf)
 - [A Dependently Typed Assembly Language](https://www.cs.cmu.edu/~rwh/papers/dtal/OGI-CSE-99-008.pdf)
 - [Deriving Via or, How to Turn Hand-Written Instances into an Anti-Pattern](https://www.kosmikus.org/DerivingVia/deriving-via-paper.pdf)
+- [Nested Datatypes](https://www.kestrel.edu/people/meertens/pub/nest5.pdf)

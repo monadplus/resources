@@ -20,6 +20,7 @@
 - [constraints](https://hackage.haskell.org/package/constraints) - Vocabulary for working with constraints.
 - [show-combinators](https://hackage.haskell.org/package/show-combinators) - combinators to write Show instances.
 - [tuple-morph](https://hackage.haskell.org/package/tuple-morph-0.1.0.0) - morphism between tuples
+- [mutable](https://hackage.haskell.org/package/mutable) - Automatic piecewise-mutable references for your types
 
 ## Custom Preludes
 
@@ -77,6 +78,7 @@ Concurrency:
 ## Type-level Programming
 
 - [singletons](https://hackage.haskell.org/package/singletons) - framework for generating singleton types
+- [type-combinators](http://hackage.haskell.org/package/type-combinators) - A collection of data types for type-level programming
 - [symbols](https://hackage.haskell.org/package/symbols) - symbol manipulation
 - [decidable](http://hackage.haskell.org/package/decidable) - Type-level predicates: k ~> Type. Complementary to singletons.
 
@@ -144,6 +146,8 @@ Concurrency:
 
 - [hasql](https://hackage.haskell.org/package/hasql), [hasql-transaction](https://hackage.haskell.org/package/hasql-transaction), [hasql-pool](https://hackage.haskell.org/package/hasql-pool) - PostgreSQL
 - [persistent](https://hackage.haskell.org/package/persistent)
+
+- [postgresql-simple-named](https://hackage.haskell.org/package/postgresql-simple-named) - Implementation of named parameters for `postgresql-simple` library
 
 ## Lens
 
@@ -219,6 +223,10 @@ Concurrency:
 ## Networking
 
 - [network](https://hackage.haskell.org/package/network)
+
+## Numeric Programming
+
+- [hmatrix](http://hackage.haskell.org/package/hmatrix) - Linear Algebra
 
 ## Monitoring
 
